@@ -1,0 +1,87 @@
+/* Resetar o CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 25px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #fff; /* Definir a cor do texto como branco */
+    background-color: #011832; /* Definir a cor de fundo como preto */
+    padding-bottom: 50px; /* Adicionar um pouco de preenchimento na parte inferior do corpo */
+    /* Aumentar o tamanho padrão da fonte */
+    line-height: 1.6; /* Definir a altura da linha para melhor legibilidade */
+    text-align: center;
+}
+
+/* Contêiner Principal */
+/* Estilizando o .container para alinhar o texto à esquerda */
+.container {
+    max-width: 1200px;
+    margin: 0 auto; /* Manter a margem automática para centralização horizontal */
+    padding: 0 100px;
+    text-align: left;
+    margin-left: 10px; /* Adicionar uma margem à esquerda para mover levemente o container */
+}
+
+/* Estilos do Cartão */
+.card {
+    background-color: #001d3e;
+}
+
+/* Cabeçalho */
+.quote-header {
+    background-color: #ff0;
+    padding: 20px;
+    text-align: center;
+}
+
+.quote-header h3,
+.quote-header h5 {
+    color: #000; /* Definir a cor do texto dos cabeçalhos dentro do quote-header como preto */
+    font-size: 24px; /* Aumentar o tamanho dos cabeçalhos */
+}
+
+/* Detalhes */
+#detailsTemplate p {
+    font-size: 20px; /* Aumentar o tamanho do texto dos detalhes */
+    margin-bottom: 10px;
+}
+
+/* Informações do Agente */
+.description {
+    color: #000000; /* Definir a cor do texto das informações do agente como branco */
+}
+
+/* Ícones de Mídias Sociais */
+.social-icons {
+    text-align: center;
+}
+
+.social-icons img {
+    width: 48px;
+    height: 48px;
+    margin-right: 10px;
+}
+
+/* Logo */
+.logo {
+    max-width: 50%;
+    height: auto;
+}
+
+/* Condições Legais */
+.text-danger {
+    color: #ff0000;
+    font-size: 18px; /* Aumentar o tamanho do texto das condições legais */
+}
+.yellow-filter {
+    filter: brightness(110%) hue-rotate(50deg);
+}
+.text-black {
+    color: #000; /* ou outra cor preta desejada */
+}
+
+
